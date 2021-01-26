@@ -1,0 +1,7 @@
+[package]
+name = "nakama-sys"
+version = "0.0.0"
+authors = ["John Wells <john@attackgoat.com>"]
+edition = "2018"
+
+[dependencies]
