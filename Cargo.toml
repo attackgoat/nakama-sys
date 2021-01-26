@@ -3,5 +3,11 @@ name = "nakama-sys"
 version = "0.0.0"
 authors = ["John Wells <john@attackgoat.com>"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/attackgoat/nakama-sys"
+homepage = "https://github.com/attackgoat/nakama-sys"
+documentation = "https://docs.rs/nakama-sys"
+description = "Rust FFI binding library for Nakama"
 
 [dependencies]
