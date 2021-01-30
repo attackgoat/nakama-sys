@@ -10,4 +10,5 @@ homepage = "https://github.com/attackgoat/nakama-sys"
 documentation = "https://docs.rs/nakama-sys"
 description = "Rust FFI binding library for Nakama"
 
-[dependencies]
+[build-dependencies]
+bindgen = "0.56"
