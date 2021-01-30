@@ -4,6 +4,8 @@ use {
 };
 
 fn main() {
+    println!("cargo:rerun-if-changed=nakama/include/nakama.h");
+
     let bindings = Builder::default()
         .header("nakama/include/nakama.h")
         .parse_callbacks(Box::new(CargoCallbacks))
