@@ -8,7 +8,6 @@ fn main() {
 
     let bindings = Builder::default()
         .header("nakama/include/nakama.h")
-        .blacklist_function("nk_init_module")
         .parse_callbacks(Box::new(CargoCallbacks))
         .generate()
         .expect("Unable to generate bindings");
