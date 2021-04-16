@@ -11,4 +11,4 @@ documentation = "https://docs.rs/nakama-sys"
 description = "Rust FFI binding library for Nakama"
 
 [build-dependencies]
-bindgen = "0.56"
+bindgen = "0.57"
